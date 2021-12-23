@@ -2,6 +2,9 @@ library dynamic_height_grid_view;
 
 import 'package:flutter/material.dart';
 
+/// GridView with dynamic height
+///
+/// Usage is almost same as [GridView.count]
 class DynamicHeightGridView extends StatelessWidget {
   const DynamicHeightGridView({
     Key? key,
@@ -50,6 +53,7 @@ class DynamicHeightGridView extends StatelessWidget {
   }
 }
 
+/// Use this for [CustomScrollView]
 class SliverDynamicHeightGridView extends StatelessWidget {
   const SliverDynamicHeightGridView({
     Key? key,
