@@ -1,3 +1,7 @@
+# dynamic_height_grid_view
+
+[![pub package](https://img.shields.io/pub/v/dynamic_height_grid_view.svg)](https://pub.dev/packages/dynamic_height_grid_view) <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="License: MIT"></a>
+
 GridView with dynamic height. No need to use aspectRatio.
 
 <img src="https://im7.ezgif.com/tmp/ezgif-7-0fca1efb6a.gif" width=270>
