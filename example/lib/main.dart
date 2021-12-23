@@ -53,7 +53,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: DynamicHeightGridView(
-        itemCount: 22,
+        itemCount: 120,
         crossAxisCount: 3,
         builder: (ctx, index) {
           colors.shuffle();
@@ -77,7 +77,7 @@ class SliverMyHomePage extends StatelessWidget {
       body: CustomScrollView(
         slivers: [
           SliverDynamicHeightGridView(
-            itemCount: 22,
+            itemCount: 61,
             crossAxisCount: 3,
             builder: (ctx, index) {
               colors.shuffle();

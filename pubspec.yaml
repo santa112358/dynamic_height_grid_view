@@ -1,7 +1,7 @@
 name: dynamic_height_grid_view
-description: A new Flutter project.
+description: GridView with dynamic height. No need to specify aspectRatio to the grid.
 version: 0.0.1
-homepage:
+homepage: https://github.com/santa112358/dynamic_height_grid_view
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
