@@ -1,6 +1,6 @@
 name: dynamic_height_grid_view
 description: GridView with dynamic height. No need to specify aspectRatio to the grid.
-version: 0.0.1+1
+version: 0.0.1+2
 homepage: https://github.com/santa112358/dynamic_height_grid_view
 
 environment:
