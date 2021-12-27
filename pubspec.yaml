@@ -1,6 +1,6 @@
 name: dynamic_height_grid_view
 description: GridView with dynamic height. No need to specify aspectRatio to the grid.
-version: 0.0.2
+version: 0.0.2+1
 homepage: https://github.com/santa112358/dynamic_height_grid_view
 
 environment:
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_hooks: ^0.17.0
+  flutter_hooks:
 
 dev_dependencies:
   flutter_test:

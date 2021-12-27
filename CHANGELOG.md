@@ -1,3 +1,7 @@
+## 0.0.2+1
+
+- Fix dependencies.
+
 ## 0.0.2
 
 - Convert to HookWidget.
