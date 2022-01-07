@@ -17,6 +17,7 @@ class DynamicHeightGridView extends HookWidget {
     this.rowCrossAxisAlignment = CrossAxisAlignment.start,
     this.controller,
     this.shrinkWrap = false,
+    this.physics,
   }) : super(key: key);
   final IndexedWidgetBuilder builder;
   final int itemCount;
@@ -25,6 +26,7 @@ class DynamicHeightGridView extends HookWidget {
   final double mainAxisSpacing;
   final CrossAxisAlignment rowCrossAxisAlignment;
 
+  final ScrollPhysics? physics;
   final ScrollController? controller;
   final bool shrinkWrap;
 
@@ -41,6 +43,7 @@ class DynamicHeightGridView extends HookWidget {
     return ListView.builder(
       controller: controller,
       shrinkWrap: shrinkWrap,
+      physics: physics,
       itemBuilder: (ctx, columnIndex) {
         return _GridRow(
           columnIndex: columnIndex,

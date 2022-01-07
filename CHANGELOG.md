@@ -1,3 +1,6 @@
+## 0.0.2+3
+- Add physics
+
 ## 0.0.2+2
 - Add shrinkWrap.
 
