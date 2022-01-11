@@ -1,3 +1,6 @@
+## 0.0.3
+- Fix crossAxisSpace
+
 ## 0.0.2+3
 - Add physics
 

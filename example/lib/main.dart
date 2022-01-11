@@ -77,7 +77,7 @@ class SliverMyHomePage extends StatelessWidget {
       body: CustomScrollView(
         slivers: [
           SliverDynamicHeightGridView(
-            itemCount: 61,
+            itemCount: 16,
             crossAxisCount: 3,
             builder: (ctx, index) {
               colors.shuffle();

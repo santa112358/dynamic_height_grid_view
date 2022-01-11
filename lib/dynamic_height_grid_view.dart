@@ -137,19 +137,19 @@ class _GridRow extends HookWidget {
       child: Row(
         crossAxisAlignment: crossAxisAlignment,
         children: List.generate(
-          crossAxisCount,
+          (crossAxisCount * 2) - 1,
           (rowIndex) {
-            final itemIndex = (columnIndex * crossAxisCount) + rowIndex;
+            final rowNum = rowIndex + 1;
+            if (rowNum % 2 == 0){
+              return SizedBox(width: crossAxisSpacing);
+            }
+            final rowItemIndex = ((rowNum + 1) ~/ 2) - 1;
+            final itemIndex = (columnIndex * crossAxisCount) + rowItemIndex;
             if (itemIndex > itemCount - 1) {
               return const Expanded(child: SizedBox());
             }
             return Expanded(
-              child: Padding(
-                padding: EdgeInsets.only(
-                  left: (rowIndex == 0) ? 0 : crossAxisSpacing,
-                ),
-                child: builder(context, itemIndex),
-              ),
+              child: builder(context, itemIndex),
             );
           },
         ),
