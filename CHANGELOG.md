@@ -1,3 +1,6 @@
+## 0.0.4
+- Remove flutter_hooks from dependency
+
 ## 0.0.3
 - Fix crossAxisSpace
 
